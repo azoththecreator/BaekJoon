@@ -16,6 +16,4 @@
 그래서 그것 할 것이다 아닌 이다 도움이 되는.<br><br><br>
 
 # 🤷 어쨌든?
-감사하다 너 위한 읽는 것. <br><br>
-
-[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=flod1998)](https://solved.ac/flod1998)
+감사하다 너 위한 읽는 것.
