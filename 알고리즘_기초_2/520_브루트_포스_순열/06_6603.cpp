@@ -37,7 +37,7 @@ bool visited[14];
 
 int arr[6];
 
-void dps(int k, int depth, int start)
+void dfs(int k, int depth, int start)
 {
     if (depth == 6)
     {
@@ -54,7 +54,7 @@ void dps(int k, int depth, int start)
 
         visited[i] = true;
         arr[depth] = s[i];
-        dps(k, depth + 1, i + 1);
+        dfs(k, depth + 1, i + 1);
         visited[i] = false;
     }
 }
@@ -71,7 +71,7 @@ int main()
         for (int i = 0; i < k; ++i)
             cin >> s[i];
 
-        dps(k, 0, 0);
+        dfs(k, 0, 0);
         cout << '\n';
     }
 
