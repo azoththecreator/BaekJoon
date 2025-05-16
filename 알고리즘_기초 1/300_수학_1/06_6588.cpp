@@ -38,8 +38,8 @@ using namespace std;
 
 int main()
 {
-    ios::sync_with_stdio(false);
     cin.tie(NULL);
+    cin.sync_with_stdio(false);
     
     bool primes[1000001];
 

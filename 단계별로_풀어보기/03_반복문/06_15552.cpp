@@ -38,7 +38,7 @@ int main()
     int t;
 
     cin.tie(NULL);
-    ios::sync_with_stdio(false);
+    cin.sync_with_stdio(false);
 
     cin >> t;
     while(t)
