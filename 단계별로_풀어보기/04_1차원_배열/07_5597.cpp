@@ -27,7 +27,7 @@ int main()
     bool students[30];
     for (int i = 0; i < 30; ++i)
         students[i] = false;
-    
+
     for (int i = 0; i < 28; ++i)
     {
         int n;

@@ -28,6 +28,6 @@ int main()
 
     cin >> id;
     cout << id << "??!";
-    
+
     return 0;
 }

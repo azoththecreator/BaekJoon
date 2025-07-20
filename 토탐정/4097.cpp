@@ -55,11 +55,11 @@ int main()
 
         for (int i = 0; i < n; ++i)
             cin >> p[i];
-        
+
         dp[0] = p[0];
         for (int i = 1; i < n; ++i)
             dp[i] = max(dp[i - 1] + p[i], p[i]);
-        
+
         cout << *max_element(dp, dp + n) << '\n';
     }
 

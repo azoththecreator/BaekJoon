@@ -46,7 +46,7 @@ int main()
 
     for (int i = 0; i < n; ++i)
         cin >> solutions[i];
-    
+
     sort(solutions, solutions + n);
 
     long long abs_sum = 3000000001LL;

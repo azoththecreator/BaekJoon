@@ -44,7 +44,7 @@ int main()
         }
         ++min;
     }
-    
+
     for (int i = 0; i < n; ++i)
     {
         cout << sorted[i] << endl;

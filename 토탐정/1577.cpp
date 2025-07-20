@@ -48,7 +48,7 @@ int main()
     {
         int a, b, c, d;
         cin >> a >> b >> c >> d;
-        
+
         if (b == d)
             under_construction[b][min(a, c)][RIGHT] = true;
         else

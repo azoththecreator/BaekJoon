@@ -42,6 +42,6 @@ int main()
     cout << a * ten << endl;
     cout << a * hundred << endl;
     cout << a * b;
-    
+
     return 0;
 }

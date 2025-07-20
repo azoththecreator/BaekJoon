@@ -38,7 +38,7 @@ int main()
     {
         char last_char = t[t.length() - 1];
         t = string(t.begin(), t.end() - 1);
-        
+
         if (last_char == 'B')
             reverse(t.begin(), t.end());
     }

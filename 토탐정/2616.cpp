@@ -58,7 +58,7 @@ int main()
         cin >> tmp;
         prefix_sum[i] = prefix_sum[i - 1] + tmp;
     }
-    
+
     int small_train_carriages;
     cin >> small_train_carriages;
 

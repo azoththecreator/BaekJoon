@@ -87,7 +87,7 @@ int main()
         cin >> beer[i].first >> beer[i].second;
         high = max(high, beer[i].second);
     }
-    
+
     long long low = 0;
     long long answer = -1;
     while (low <= high)

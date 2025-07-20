@@ -48,7 +48,7 @@ int main()
 
         high = max(high, (long long)tmp);
     }
-    
+
     long long low = 1;
     long long max_length = 0;
     while (low <= high)
@@ -57,7 +57,7 @@ int main()
         long long sum = 0;
         for (int i = 0; i < k; ++i)
             sum += logs[i] / mid;
-        
+
         if (sum >= n)
         {
             max_length = mid;

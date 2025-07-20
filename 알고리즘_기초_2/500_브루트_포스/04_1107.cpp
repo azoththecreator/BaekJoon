@@ -65,7 +65,7 @@ int main()
     {
         if (!is_available_channel(channel, (bool*)buttons))
             continue;
-    
+
         int cnt = 0;
         if (channel == 0)
         cnt = 1;

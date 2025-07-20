@@ -52,16 +52,16 @@ void bfs(int n, int k)
             if (x == _x)
                 _x *= 2;
 
-            
+
             if (_x >= 0 && _x <= 100000)
             {
                 if (visited[_x])
                 continue;
-            
+
                 map[_x] = map[x] + 1;
                 q.push(_x);
                 visited[_x] = true;
-                
+
                 route[_x] = x;
 
                 if (_x == k)
@@ -78,12 +78,12 @@ int main()
 
     bfs(n, k);
     cout << map[k] << '\n';
-    
+
     vector<int> answer;
     for (int i = k; i != n; i = route[i])
         answer.push_back(i);
     answer.push_back(n);
-    
+
     for (int i = answer.size() - 1; i >= 0; --i)
         cout << answer[i] << ' ';
 

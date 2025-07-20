@@ -59,7 +59,7 @@ void dfs(int x)
 
     graph_seq.push_back(x);
     visited[x] = true;
-    
+
     for (int i = 0; i < graph[x].size(); ++i)
     {
         int y = graph[x][i];

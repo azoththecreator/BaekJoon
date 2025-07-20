@@ -55,7 +55,7 @@ int main()
             else
                 dp[0][i] = 1000000;
         }
-    
+
         for (int i = 1; i < n; ++i)
         {
             dp[i][RED] = min(dp[i - 1][GREEN], dp[i - 1][BLUE]) + colors[i][RED];

@@ -36,7 +36,7 @@ int main()
     int baskets[n];
     for (int x = 0; x < n; ++x)
         baskets[x] = x + 1;
-    
+
     for (int x = 0; x < m; ++x)
     {
         int i, j;
@@ -45,7 +45,7 @@ int main()
         int tmp[n];
         for (int y = 0; y < n; ++y)
             tmp[y] = baskets[y];
-        
+
         for (int y = i; y <= j; ++y)
             baskets[y - 1] = tmp[i + (j - y) - 1];
     }

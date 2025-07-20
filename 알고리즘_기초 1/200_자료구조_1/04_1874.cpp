@@ -37,7 +37,7 @@ int main()
     int input[n];
     for (int i = 0; i < n; ++i)
         cin >> input[i];
-    
+
     stack<int> seq;
     int arr[n];
     int idx = 0;
@@ -46,7 +46,7 @@ int main()
     {
         seq.push(i);
         output.push_back('+');
-        
+
         while (seq.size() > 0 && seq.top() == input[idx])
         {
             arr[idx] = seq.top();

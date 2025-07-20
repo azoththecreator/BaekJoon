@@ -43,7 +43,7 @@ int main()
     g[1] = f[1];
     for (int i = 2; i <= 1000000; ++i)
         g[i] = g[i - 1] + f[i];
-    
+
     for (int i = 0; i < t; ++i)
     {
         int n;

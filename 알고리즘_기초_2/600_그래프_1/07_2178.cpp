@@ -57,7 +57,7 @@ void bfs(int n, int m)
                 {
                     maze[_x][_y] = false;
                     dist[_x][_y] = dist[curr_pos.first][curr_pos.second] + 1;
-                    
+
                     pair<int, int> p;
                     p.first = _x;
                     p.second = _y;

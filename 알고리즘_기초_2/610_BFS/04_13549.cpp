@@ -58,7 +58,7 @@ void bfs(int n, int k)
             map[move_left] = sec + 1;
             q.push({move_left, sec + 1});
         }
-        
+
         if((move_right >= 0 && move_right <= 100000) && map[move_right] > sec)
         {
             map[move_right] = sec + 1;

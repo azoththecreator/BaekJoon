@@ -50,7 +50,7 @@ int main()
                 cout << ' ';
             }
         }
-        
+
         while (!v.empty())
         {
             cout << *(v.end() - 1);

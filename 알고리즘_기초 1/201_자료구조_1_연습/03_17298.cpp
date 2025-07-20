@@ -39,7 +39,7 @@ int main()
     {
         int tmp;
         cin >> tmp;
-    
+
         while (s.size() > 0 && s.top().first < tmp)
         {
             output[s.top().second] = tmp;

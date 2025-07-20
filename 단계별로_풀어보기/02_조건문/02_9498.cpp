@@ -33,6 +33,6 @@ int main()
         cout << "D";
     else
         cout << "F";
-    
+
     return 0;
 }

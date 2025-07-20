@@ -36,6 +36,6 @@ int main()
         ++cnt;
     }
     cout << digits + (n - tens / 10 + 1) * cnt;
-    
+
     return 0;
 }

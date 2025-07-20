@@ -51,7 +51,7 @@ int main()
         original += a_arr[i] * power;
         power *= a;
     }
-    
+
     vector<int> b_vec;
     while (original > 0)
     {

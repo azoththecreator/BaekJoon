@@ -62,7 +62,7 @@ int main()
 {
     int v;
     cin >> v;
-    
+
     for (int i = 0; i < v; ++i)
     {
         int parent;
@@ -77,7 +77,7 @@ int main()
 
             int dist;
             cin >> dist;
-            
+
             tree[parent].push_back({node, dist});
         }
     }
@@ -92,7 +92,7 @@ int main()
         if (dist_from_1[pole] < dist_from_1[i])
             pole = i;
     }
-    
+
     visited[pole] = true;
     dfs(pole, POLE);
 

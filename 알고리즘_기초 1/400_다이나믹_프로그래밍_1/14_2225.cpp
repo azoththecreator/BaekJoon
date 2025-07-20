@@ -31,7 +31,7 @@ int main()
         for (int j = 0; j <= k; ++j)
             dp[i][j] = 0;
     }
-    
+
     for (int j = 0; j <= k; ++j)
         dp[0][j] = 1;
 

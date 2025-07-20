@@ -66,14 +66,14 @@ int main()
 
         for (int j = 0; j < n; ++j)
             replace(words[j].begin(), words[j].end(), 'A' + idx, i + '0');
-        
+
         alphabet[idx] = -1;
     }
 
     int sum = 0;
     for (int i = 0; i < n; ++i)
         sum += stoi(words[i]);
-    
+
     cout << sum;
 
     return 0;

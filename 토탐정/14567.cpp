@@ -66,7 +66,7 @@ int main()
         for (int i = 0; i < graph[curr].size(); ++i)
         {
             semesters[graph[curr][i]] = max(semesters[graph[curr][i]], semesters[curr] + 1);
-            
+
             --levels[graph[curr][i]];
             if (levels[graph[curr][i]] == 0)
                 q.push(graph[curr][i]);

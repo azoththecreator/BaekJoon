@@ -15,7 +15,7 @@
  )  ( ')
 (  /  )
  \(__)|
- 
+
 */
 
 #include <iostream>
@@ -28,6 +28,6 @@ int main()
     cout << " )  ( ')" << endl;
     cout << "(  /  )" << endl;
     cout << " \\(__)|";
-    
+
     return 0;
 }

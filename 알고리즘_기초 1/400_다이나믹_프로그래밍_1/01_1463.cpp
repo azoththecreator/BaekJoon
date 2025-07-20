@@ -46,6 +46,6 @@ int main()
         dp[i] = min;
     }
     cout << dp[n];
-    
+
     return 0;
 }

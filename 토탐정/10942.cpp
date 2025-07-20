@@ -51,7 +51,7 @@ int main()
     cin >> n;
     for (int i = 1; i <= n; ++i)
         cin >> palindrome[i];
-    
+
     for (int i = 1; i <= n; ++i)
         dp[i][i] = true;
     for (int i = 1; i < n; ++i)
@@ -66,7 +66,7 @@ int main()
                 dp[start][end] = true;
         }
     }
-    
+
     int m;
     cin >> m;
     while (m > 0)

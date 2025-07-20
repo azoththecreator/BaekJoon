@@ -104,7 +104,7 @@ int main()
     for (int i = 1; i <= n; ++i)
         grid[i] = {-2147483648, 2147483647};
     inorder(root, 1);
-    
+
     int level = 0;
     int width = 0;
     for (int i = 1; i <= n; ++i)

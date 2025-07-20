@@ -56,7 +56,7 @@ int main()
         int sum = 0;
         for (int i = 0; i < n; ++i)
             sum += cookies[i] / mid;
-        
+
         if (sum >= m)
         {
             cookie = mid;

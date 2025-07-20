@@ -34,7 +34,7 @@ int main()
 {
     int t;
     cin >> t;
-    
+
     int dp[12];
     dp[1] = 1;
     dp[2] = 2;

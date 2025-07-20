@@ -41,7 +41,7 @@ int main()
             tmp = n[i] - '0';
         else
             tmp = n[i] - 'A' + 10;
-        
+
         sum += tmp * power;
         power *= b;
     }

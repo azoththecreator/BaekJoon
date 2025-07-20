@@ -60,7 +60,7 @@ int main()
     {
         string cmd;
         cin >> cmd;
-        
+
         if (cmd == "push_front")
         {
             int x;

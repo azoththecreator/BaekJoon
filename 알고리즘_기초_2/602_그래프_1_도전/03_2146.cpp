@@ -57,7 +57,7 @@ void dfs(int n, int x, int y, int islands)
 void bfs(int n, int island)
 {
     queue<pair<int, int> > q;
-    
+
     for (int i = 0; i < n; ++i)
     {
         for (int j = 0; j < n; ++j)

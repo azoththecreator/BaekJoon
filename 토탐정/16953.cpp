@@ -49,6 +49,6 @@ int main()
         cout << cnt;
     else
         cout << -1;
-    
+
     return 0;
 }

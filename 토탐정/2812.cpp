@@ -28,7 +28,7 @@ int main()
 
     string num;
     cin >> num;
-    
+
     stack<char> s;
     int idx = 0;
     while (k > 0)

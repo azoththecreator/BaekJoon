@@ -28,6 +28,6 @@ int main()
 
     cin >> year;
     cout << year - (2541 - 1998);
-    
+
     return 0;
 }

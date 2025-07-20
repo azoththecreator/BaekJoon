@@ -6,13 +6,13 @@
 Moo는 술자리에서 즐겁게 할 수 있는 게임이다.
 이 게임은 Moo수열을 각 사람이 하나씩 순서대로 외치면 되는 게임이다.
 
-Moo 수열은 길이가 무한대이며, 다음과 같이 생겼다. 
+Moo 수열은 길이가 무한대이며, 다음과 같이 생겼다.
 
     - m o o m o o o m o o m o o o o m o o m o o o m o o m o o o o o
 
 Moo 수열은 다음과 같은 방법으로 재귀적으로 만들 수 있다.
 먼저, S(0)을 길이가 3인 수열 "m o o"이라고 하자.
-1보다 크거나 같은 모든 k에 대해서, S(k)는 S(k-1)과 o가 k+2개인 수열 "m o ... o" 와 S(k-1)을 합쳐서 만들 수 있다.    
+1보다 크거나 같은 모든 k에 대해서, S(k)는 S(k-1)과 o가 k+2개인 수열 "m o ... o" 와 S(k-1)을 합쳐서 만들 수 있다.
 
     - S(0) = "m o o"
     - S(1) = "m o o m o o o m o o"
@@ -41,10 +41,10 @@ char moo(int n, int level)
 {
     if (n == 1)
         return 'm';
-    
+
     if (level == 0)
         return 'o';
-    
+
     if (n <= total_length[level - 1])
         return moo(n, level - 1);
     else if (n <= total_length[level - 1] + level + 3)

@@ -33,10 +33,10 @@ long long solve(long long i, int p, int q)
 {
     if (i == 0)
         return 1;
-    
+
     if (um[i])
         return um[i];
-    
+
     long long tmp;
     tmp = solve(i / p, p, q) + solve(i / q, p, q);
     um[i] = tmp;

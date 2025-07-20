@@ -40,7 +40,7 @@ int main()
 {
     cin.tie(NULL);
     cin.sync_with_stdio(false);
-    
+
     bool primes[1000001];
 
     primes[0] = false;

@@ -95,12 +95,12 @@ int main()
             {
                 vector<vector<char> > swap_horizontal;
                 swap_horizontal = board;
-        
+
                 tmp = swap_horizontal[i][j];
                 swap_horizontal[i][j] = swap_horizontal[i][j + 1];
                 swap_horizontal[i][j + 1] = tmp;
                 length = count_longest(swap_horizontal, n);
-    
+
                 if (length > max)
                     max = length;
             }
@@ -109,12 +109,12 @@ int main()
             {
                 vector<vector<char> > swap_vertical;
                 swap_vertical = board;
-        
+
                 tmp = swap_vertical[i][j];
                 swap_vertical[i][j] = swap_vertical[i + 1][j];
                 swap_vertical[i + 1][j] = tmp;
                 length = count_longest(swap_vertical, n);
-    
+
                 if (length > max)
                     max = length;
             }

@@ -52,7 +52,7 @@ int main()
     }
 
     sort(jobs, jobs + n, comp);
-    
+
     int current_time = jobs[0].second - jobs[0].first;
     for (int i = 1; i < n; ++i)
     {

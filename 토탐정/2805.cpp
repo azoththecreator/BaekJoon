@@ -45,7 +45,7 @@ int main()
 
     for (int i = 0; i < n; ++i)
         cin >> trees[i];
-    
+
     int low = 0;
     int high = *max_element(trees, trees + n);
     int ret = 0;
@@ -56,7 +56,7 @@ int main()
         long long sum = 0;
         for (int i = 0; i < n; ++i)
             sum += max(trees[i] - mid, 0);
-        
+
         if (sum >= m)
         {
             ret = mid;

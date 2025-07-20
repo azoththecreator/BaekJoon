@@ -45,6 +45,6 @@ int main()
         else
             cout << "3";
     }
-    
+
     return 0;
 }

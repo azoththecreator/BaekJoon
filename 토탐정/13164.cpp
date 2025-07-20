@@ -41,7 +41,7 @@ int main()
         int tmp;
         cin >> tmp;
         heights.push_back(tmp);
-        
+
         if (i != 0)
         subs.push_back(tmp - heights[i - 1]);
     }

@@ -51,7 +51,7 @@ int main()
                 answer.push_back(dwarves[k]);
                 if (sum > 100 || answer.size() > 7)
                     break;
-                
+
                 if (answer.size() == 7 && sum == 100)
                 {
                     sort(answer.begin(), answer.end());

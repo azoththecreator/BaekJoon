@@ -30,6 +30,6 @@ int main()
     cout << "( 0 )\"\"\"\\" << endl;
     cout << "|\"^\"`    |" << endl;
     cout << "||_/=\\\\__|" << endl;
-    
+
     return 0;
 }

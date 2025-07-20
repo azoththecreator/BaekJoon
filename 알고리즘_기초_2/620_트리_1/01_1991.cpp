@@ -82,7 +82,7 @@ int main()
         node.value = parent;
         node.idx_left = (left == '.') ? 0 : (left - 'A' + 1);
         node.idx_right = (right == '.') ? 0 : (right - 'A' + 1);
- 
+
         tree[parent - 'A' + 1] = node;
     }
 

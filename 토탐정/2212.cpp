@@ -40,9 +40,9 @@ int main()
 
     for (int i = 0; i < n; ++i)
         cin >> sensors[i];
-    
+
     sort(sensors, sensors + n);
-    
+
     for (int i = 0; i < n - 1; ++i)
         subs[i] = sensors[i + 1] - sensors[i];
 

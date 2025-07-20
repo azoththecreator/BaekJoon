@@ -37,7 +37,7 @@ int main()
     end_1[1] = 1;
     end_1[2] = 0;
     end_1[3] = 1;
-    
+
     end_2[1] = 0;
     end_2[2] = 1;
     end_2[3] = 1;
@@ -52,7 +52,7 @@ int main()
         end_2[i] = (end_1[i - 2] + end_3[i - 2]) % 1000000009;
         end_3[i] = (end_1[i - 3] + end_2[i - 3]) % 1000000009;
     }
-    
+
     for (int i = 0; i < t; ++i)
     {
         int n;

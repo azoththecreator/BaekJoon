@@ -43,9 +43,9 @@ int main()
     int n = 1;
     while (n < k)
         n *= 2;
-    
+
     cout << n;
-    
+
     int split = 0;
     while (k > 0)
     {
@@ -59,6 +59,6 @@ int main()
     }
 
     cout << ' ' << split;
-    
+
     return 0;
 }

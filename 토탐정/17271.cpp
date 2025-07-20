@@ -42,7 +42,7 @@ int main()
         dp[i] = 1;
     for (int i = m; i <= n; ++i)
         dp[i] = (dp[i - 1] + dp[i - m]) % MOD;
-    
+
     cout << dp[n];
 
     return 0;

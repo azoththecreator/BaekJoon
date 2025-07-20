@@ -40,7 +40,7 @@ int main()
         cin >> nums[i];
         sum += nums[i];
     }
-    
+
     int sorted[5];
     int curr = 10;
     int idx = 0;
@@ -57,7 +57,7 @@ int main()
                 break;
             }
         }
-        
+
         if (tmp == idx)
         {
             curr += 10;
